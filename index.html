@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Подарок</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: black;
+    color: white;
+}
+
+/* Крупный центрированный текст */
+.text {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+    text-align: center;
+}
+
+/* Фото на весь экран */
+.full-img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    display: block;
+}
+
+/* Блок с двумя картинками */
+.duo {
+    display: flex;
+    height: 100vh;
+}
+
+.duo img {
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+}
+</style>
+
+</head>
+
+<body>
+
+<!-- Текст -->
+<div class="text">Первый текст</div>
+
+<!-- Фото -->
+<img class="full-img" src="img1.jpg">
+
+<!-- Текст -->
+<div class="text">Второй текст</div>
+
+<!-- Фото -->
+<img class="full-img" src="img2.jpg">
+
+<!-- Текст -->
+<div class="text">Третий текст</div>
+
+<!-- Фото -->
+<img class="full-img" src="img3.jpg">
+
+<!-- Текст -->
+<div class="text">Четвёртый текст</div>
+
+<!-- Две фотки -->
+<div class="duo">
+    <img src="img4.jpg">
+    <img src="img5.jpg">
+</div>
+
+<!-- Текст -->
+<div class="text">Пятый текст</div>
+
+<!-- Финальное фото -->
+<img class="full-img" src="img6.jpg">
+
+</body>
+</html>
